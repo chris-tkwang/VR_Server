@@ -1,0 +1,130 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+# Multi/Sub ping_pong_table (14) to come 
+#
+newmtl net
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+map_Kd net.jpg
+map_d net_mask.jpg
+#
+newmtl net_plastic
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  3.5
+illum 2
+bump net_p_b.jpg
+#
+newmtl net_ends
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+map_Kd net_end.jpg
+bump net_endb.jpg
+#
+newmtl net_top
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+map_Kd net_top.jpg
+bump net_topb.jpg
+#
+newmtl screws
+Ka  0.4 0.4 0.4
+Kd  0.4 0.4 0.4
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  7.0
+illum 2
+map_Ks scrw.jpg
+#
+newmtl screws
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  7.0
+illum 2
+#
+newmtl text
+Ka  0.9 0.9 0.3
+Kd  0.9 0.9 0.3
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl table_green
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+map_Kd tbl_grn.jpg
+#
+newmtl white_lines
+Ka  0.9 0.9 0.9
+Kd  0.9 0.9 0.9
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+map_Kd white_lines.jpg
+#
+newmtl table_metal
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl wheels
+Ka  0.4 0.4 0.4
+Kd  0.4 0.4 0.4
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  1.0
+illum 2
+map_Kd wheel.jpg
+#
+newmtl gray_plastic
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl ss_metal
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  7.0
+illum 2
+#
+newmtl rubber
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  5.0
+illum 2
+#
+# Multi/Sub ping_pong_table done 
+#
+# EOF
